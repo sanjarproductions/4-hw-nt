@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kodchasan', sans-serif;
+}
+
+.container {
+    max-width: 1150px;
+    width: 100%;
+    margin: auto;
+}
+
+.nav {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.nav .flex,
+.nav .flex .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .flex .links {
+    gap: 0 40px;
+}
+
+.nav .logo {
+    background: url("./img/Vector.png") 50% 50% no-repeat;
+    width: 92px;
+    height: 40px;
+    background-size: contain;
+}
+
+.block1 {
+    background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+    /* height: 100vh; */
+    border-radius: 30px;
+    max-width: 1500px;
+}
+
+.block1 .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block1 .text {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.block1 .photo {
+    background: url("./img/18030479-removebg\ 1.png") 50% 50% no-repeat;
+    width: 686px;
+    height: 650px;
+    background-size: contain;
+    margin-top: 124px;
+}
+
+.block1 .center {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    margin-top: 80px;
+}
+
+.block1 .center .btn {
+    background: #000;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 10px;
+    padding: 18px 50px;
+}
+
+.block1 .center .btn:nth-child(2) {
+    background: transparent;
+    color: #000;
+    font-size: 16px;
+    margin-right: 10px;
+    padding: 18px 50px;
+    border: 1px solid #000;
+    margin-right: 0px;
+}
+
+.block2 {
+    margin-top: 130px;
+}
+
+.block2 .h {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.block2 .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.block3 {
+    margin-top: 150px;
+}
+.bloc4 {
+    margin-top: 150px;
+}
+
+.block3 .flex,
+.block4 .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block3 .pic {
+    width: 500px;
+}
+
+.block3 .text {
+    width: 500px;
+}
+
+.block3 .text .headline,
+.block4 .text .headline {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.block3 .text .p,
+.block4 .text .p {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+.block3 .text .btn,
+.block4 .text .btn {
+    padding: 15px 40px;
+    background: #E58311;
+    color: #fff;
+    width: 184px;
+}
+
+.block4 .pic {
+    width: 500px;
+}
+.block4 .h{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.block4 .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #e5821146;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 30px;
+    margin-right: 30px;
+}
+
+.block4 .item img {
+    width: 234px;
+    height: 248px;
+}
+
+.block4 .item .headline {
+    font-size: 28px;
+}
+.block4 .item .p {
+    font-size: 16px;
+    font-weight: 600;
+}
+.block4 .item .btn {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.block4 .item img {
+    width: 234px;
+    height: 248px;
+}
+
+
+
+.footer{
+    background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+    margin-top: 100px;
+    padding: 45px 0px;
+}
+.footer .flex,.footer .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .icons{
+    gap: 0px 40px;
+}
+.footer .flex .logo{
+    background: url("./img/Vector-b.png") 50% 50% no-repeat;
+    width: 92px;
+    height: 40px;
+    background-size: contain;
+}
